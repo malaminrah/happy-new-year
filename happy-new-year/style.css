@@ -1,0 +1,352 @@
+/* ----- POPPINS FONT Link ----- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background: #ffffff;
+}
+main{
+  width: 80%;
+  margin: 20px auto;
+}
+section{
+  margin: 0 0 100px;
+}
+.top-banner{
+  position: relative;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(images/Banner\ Image.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.top-banner span{
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.top-banner h1{
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+.offer{
+  height: 80vh;
+  text-align: center;
+}
+.discount{
+  color: red;
+  font-size: 50px;
+  font-weight: 600;
+  /* display: inline-block; */
+  margin-bottom: 20px;
+}
+.offer span{
+  font-size: 14px;
+  color: red;
+  text-transform: uppercase;
+}
+.offer > h3{
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.offer img{
+  width: 500px;
+}
+.party{
+  position: relative;
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+  padding: 0 70px;
+  width: 100%;
+  height: 60vh;
+  background-image: url(images/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.party-content, .party-year{
+  width: 50%;
+  line-height: 1.2;
+}
+.party-content h2{
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.party-content p{
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.party-content button{
+  background: transparent;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  border: none;
+  text-transform: uppercase;
+
+}
+.party-year img{
+  position: absolute;
+  top: 50px;
+  right: 80px;
+  width: 200px;
+}
+.join-now{
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  padding: 50px;
+  background: linear-gradient(#FFEDED, #FFFDFD);
+}
+.join-now span{
+  color: #FF0000;
+  padding: 7px 0;
+  display: inline-block;
+}
+.join-now button{
+  padding: 10px 20px;
+  background-color: #FF0000;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.upcoming-offer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+}
+.best-offer, .circle-img, .year{
+  width: 30%;
+  /* margin: auto; */
+}
+.best-offer span{
+  font-size: 16px;
+  color: red;
+  text-transform: uppercase;
+}
+.best-offer h3{
+  font-size: 30px;
+  margin: 10px 0;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.best-offer p{
+  font-size: 14px;
+}
+.circle-img{
+  padding: 30px;
+  border-radius: 50%;
+  border: 10px solid red;
+  
+}
+.circle-img img{
+  width: 100%;
+}
+.year h3{
+  font-size: 30px;
+  color: #FF0000;
+  font-weight: 700;
+}
+.year p{
+  font-size: 14px;
+  margin: 10px 0;
+}
+.year img{
+  width: 100px;
+}
+.holidays{
+  height: 80vh;
+  margin-bottom: 300px;
+}
+.holidays-sale{
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.holidays-sale .functional{
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.holidays-sale h3{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.holidays-sale .red-color{
+  color: red; 
+}
+.holidays-sale p{
+  margin-bottom: 30px;
+}
+
+.holidays-image{
+  position: relative;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.holidays-image img{
+  width: 100%;
+}
+.item-1{
+  position: relative;
+  width: 550px;
+  grid-column: span 2;
+}
+.item-1 img{
+  position: absolute;
+  width: 100%;
+  bottom: -100px;
+  left: 100px;
+}
+.item-3{
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+.item-3 img{
+  width: 200px;
+}
+.item-4{
+  grid-column: span 3;
+}
+.gift-section{
+  height: 100vh;
+}
+.gift-content{
+  width: 80%;
+  margin-bottom: 20px;
+}
+.gift-content span{
+  font-size: 16px;
+  color: red;
+  text-transform: uppercase;
+}
+.gift-content h3{
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.gift-content p{
+  color: rgb(128, 128, 128);
+}
+.gift-image{
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.gift-image img{
+  width: 100%;
+}
+.newsletter{
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  background: #FFEDED;
+  border-radius: 10px;
+}
+.newsletter img{
+  width: 100px;
+}
+.newsletter h3{
+  font-size: 30px;
+  margin: 10px 0;
+}
+.newsletter p{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-box form{
+  position: relative;
+  width: 500px;
+  height: 50px;
+  /* background: #FF0000; */
+}
+.input-box form input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: transparent;
+  padding-left: 20px;
+  background-color: #ffffff;
+  border-radius: 20px ;
+  outline: none;
+}
+.input-box form button{
+  background: red;
+  box-shadow: 0px 7px 20px rgba(141, 40, 173, 0.15);
+  border-radius: 0 20px 20px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border: transparent;
+  padding: 15px 40px;
+  font-weight: 600;
+  /* font-size: 18px; */
+  color: white;
+}
+.footer{
+  color: white;
+  background-color: black;
+  padding: 0 10%;
+}
+hr{
+  color: rgb(136, 136, 136);
+}
+.address{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.socail{
+  text-align: center;
+  margin: 20px 0;
+}
+.socail img{
+  width: 50px;
+  margin: 0 10px;
+}
+.foot{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 0px;
+}
